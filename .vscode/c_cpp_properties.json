@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Linux",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerPath": "/usr/bin/g++",
+      "includePath": [
+        "${workspaceFolder}/src",
+        "${workspaceFolder}/build/_deps/kokkos-src/core/src",
+        "${workspaceFolder}/build/_deps/kokkos-build/core/src",
+        "${workspaceFolder}/build/_deps/kokkos-src/tpls/desul/include",
+        "${workspaceFolder}/build/_deps/kokkos-src/tpls/mdspan/include",
+        "${workspaceFolder}/build/_deps/eigen3-src",
+        "/usr/include",
+        "/usr/include/c++/11",
+        "/usr/include/x86_64-linux-gnu"
+      ],
+      "defines": [
+        "WITH_MPI"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/src",
+          "${workspaceFolder}/build/_deps/kokkos-src/core/src",
+          "${workspaceFolder}/build/_deps/kokkos-build/core/src"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "WSL: Build Project",
+      "type": "shell",
+      "command": "cmake --build build",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "shell": {
+          "executable": "/bin/bash",
+          "args": ["-lc"]
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
